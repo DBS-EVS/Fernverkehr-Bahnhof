@@ -34,12 +34,34 @@ const zone2PopUpMap = new Map ([
     ["program2", "popUpProgram2"],
     ["program3", "popUpProgram3"],
     ["program4", "popUpProgram4"],
-    ["program5", "popUpProgram5"],
-    ["program6", "popUpProgram6"],
-    ["program7", "popUpProgram7"]
+    ["program5", "popUpProgram5"]
 ]);
 
 for (const progZone of zone2PopUpMap.keys()) {
     WA.room.onEnterZone(progZone, () => {openPopupWithWebsiteYesNo(zone2PopUpMap.get(progZone), programMsg, urlProgram)})
     WA.room.onLeaveZone(progZone, () => {closePopupWithWebsite()})
 }
+
+
+/*
+WA.room.onEnterZone(zoneFeedback, () => {
+   currentPopup =  WA.ui.openPopup("popUpFeedback","Hier kannst du Feedback abgeben.",[
+        {
+            label: "Feedback",
+            callback: (popup => {
+                WA.nav.openCoWebSite(urlFeedback);
+                isCoWebSiteOpened = true;
+                closePopUp();
+            })
+        }]);
+})
+
+WA.room.onLeaveZone(zoneFeedback, () =>{
+    closePopUp();
+
+    if (isCoWebSiteOpened) {
+        WA.nav.closeCoWebSite();
+        isCoWebSiteOpened = false;
+    }
+})
+*/
