@@ -33,7 +33,6 @@ export function openPopupWithWebsiteYesNo(popUpName, msg, websiteUrl) {
         {
             label: "Nein",
             callback: (popup => {
-                isCoWebSiteOpened = false;
                 closePopUp();
             })
         },
@@ -41,7 +40,6 @@ export function openPopupWithWebsiteYesNo(popUpName, msg, websiteUrl) {
             label: "Ja",
             callback: (popup => {
                 WA.openTab(websiteUrl);
-                isCoWebSiteOpened = true;
                 closePopUp();
             })
         }
@@ -50,9 +48,4 @@ export function openPopupWithWebsiteYesNo(popUpName, msg, websiteUrl) {
 
 export function closePopupWithWebsite() {
     closePopUp();
-
-    if (isCoWebSiteOpened) {
-        WA.nav.closeCoWebSite();
-        isCoWebSiteOpened = false;
-    }
 }

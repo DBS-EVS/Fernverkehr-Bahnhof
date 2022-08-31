@@ -5469,7 +5469,7 @@
         {
          "columns":70,
          "firstgid":1,
-         "image":"src\/Bahnhof\/dbs\/terrain.png",
+         "image":"tilesets\/Bahnhof\/dbs\/terrain.png",
          "imageheight":3200,
          "imagewidth":2240,
          "margin":0,
@@ -5482,7 +5482,7 @@
         {
          "columns":70,
          "firstgid":7001,
-         "image":"src\/Bahnhof\/dbs\/trains.png",
+         "image":"tilesets\/Bahnhof\/dbs\/trains.png",
          "imageheight":3200,
          "imagewidth":2240,
          "margin":0,
@@ -5495,7 +5495,7 @@
         {
          "columns":31,
          "firstgid":14001,
-         "image":"src\/Bahnhof\/dbs\/symbols.png",
+         "image":"tilesets\/Bahnhof\/dbs\/symbols.png",
          "imageheight":992,
          "imagewidth":992,
          "margin":0,
@@ -5518,7 +5518,7 @@
         {
          "columns":31,
          "firstgid":14962,
-         "image":"src\/Bahnhof\/dbs\/ffm-kaiserstr.png",
+         "image":"tilesets\/Bahnhof\/dbs\/ffm-kaiserstr.png",
          "imageheight":992,
          "imagewidth":992,
          "margin":0,
@@ -5531,7 +5531,7 @@
         {
          "columns":31,
          "firstgid":15923,
-         "image":"src\/Bahnhof\/dbs\/db_interior.png",
+         "image":"tilesets\/Bahnhof\/dbs\/db_interior.png",
          "imageheight":992,
          "imagewidth":992,
          "margin":0,
@@ -5544,7 +5544,7 @@
         {
          "columns":31,
          "firstgid":16884,
-         "image":"src\/Bahnhof\/dbs\/items.png",
+         "image":"tilesets\/Bahnhof\/dbs\/items.png",
          "imageheight":992,
          "imagewidth":992,
          "margin":0,
@@ -5557,7 +5557,7 @@
         {
          "columns":62,
          "firstgid":17845,
-         "image":"src\/Bahnhof\/dbs\/modded_Obj.png",
+         "image":"tilesets\/Bahnhof\/dbs\/modded_Obj.png",
          "imageheight":1984,
          "imagewidth":1984,
          "margin":0,
@@ -5570,7 +5570,7 @@
         {
          "columns":70,
          "firstgid":21689,
-         "image":"src\/Bahnhof\/dbs\/plants.png",
+         "image":"tilesets\/Bahnhof\/dbs\/plants.png",
          "imageheight":3200,
          "imagewidth":2240,
          "margin":0,
@@ -5583,7 +5583,7 @@
         {
          "columns":32,
          "firstgid":28689,
-         "image":"src\/Bahnhof\/dbs\/LPC-terrains-subimissions-outside.png",
+         "image":"tilesets\/Bahnhof\/dbs\/LPC-terrains-subimissions-outside.png",
          "imageheight":1024,
          "imagewidth":1024,
          "margin":0,
@@ -5596,7 +5596,7 @@
         {
          "columns":20,
          "firstgid":29713,
-         "image":"src\/Bahnhof\/dbs\/NPCs.png",
+         "image":"tilesets\/Bahnhof\/dbs\/NPCs.png",
          "imageheight":768,
          "imagewidth":640,
          "margin":0,
@@ -6818,7 +6818,7 @@
         {
          "columns":24,
          "firstgid":30193,
-         "image":"src\/Bahnhof\/dbs\/dishes.png",
+         "image":"tilesets\/Bahnhof\/dbs\/dishes.png",
          "imageheight":1440,
          "imagewidth":768,
          "margin":0,
@@ -6831,7 +6831,7 @@
         {
          "columns":33,
          "firstgid":31273,
-         "image":"src\/Bahnhof\/dbs\/sushi-go.png",
+         "image":"tilesets\/Bahnhof\/dbs\/sushi-go.png",
          "imageheight":896,
          "imagewidth":1056,
          "margin":0,
