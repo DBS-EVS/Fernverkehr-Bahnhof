@@ -22,14 +22,6 @@ for (const progZone of zone2PopUpMap.keys()) {
     WA.room.onEnterZone(progZone, () => {openPopupWithWebsiteYesNo(zone2PopUpMap.get(progZone), programMsg, urlProgram)})
     WA.room.onLeaveZone(progZone, () => {closePopupWithWebsite()})
 }
-
-var technicianZone = "technician-informed";
-var popUpTechnician = "popUpTechnician";
-var technicianMsg = "Techniker ist informiert.";
-
-WA.room.onEnterZone(technicianZone, () => {openPopUpOkOnly(popUpTechnician, technicianMsg, "OK")})
-WA.room.onLeaveZone(technicianZone, () => {closePopUp()})
-
 export {};
 
 
