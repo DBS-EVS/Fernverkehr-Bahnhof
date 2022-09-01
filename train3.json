@@ -1104,6 +1104,11 @@
          "name":"mapName",
          "type":"string",
          "value":"Train3"
+        }, 
+        {
+         "name":"script",
+         "type":"string",
+         "value":"train3_script.js"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.8.6",
