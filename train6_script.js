@@ -1,7 +1,7 @@
 import { } from "https://unpkg.com/@workadventure/scripting-api-extra@^1";
 import {track6Map, setTrackContent, refreshSigns } from "./sign_script.js";
 import {openPopupWithWebsiteYesNo, closePopupWithWebsite, openPopUpOkOnly, closePopUp } from "./popUp_script.js";
-import {programMsg, urlProgram } from "./vars.js";
+import {programMsg} from "./vars.js";
 
 const sign6a = WA.room.website.get("sign6a");
 const sign6b = WA.room.website.get("sign6b");

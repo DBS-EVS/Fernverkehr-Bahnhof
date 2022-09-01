@@ -341,16 +341,15 @@
                     {
                      "color":"#eeeeee",
                      "fontfamily":"Press Start 2P",
-                     "halign":"center",
                      "pixelsize":35,
                      "text":"Test",
                      "wrap":true
                     },
                  "type":"",
                  "visible":true,
-                 "width":427.031,
-                 "x":1502.4845,
-                 "y":786.1849
+                 "width":152.364333333333,
+                 "x":1641.15116666667,
+                 "y":787.518233333333
                 }, 
                 {
                  "height":267.296866666667,
