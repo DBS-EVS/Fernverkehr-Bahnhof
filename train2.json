@@ -437,7 +437,7 @@
                  "y":614.852
                 }, 
                 {
-                 "height":40.9635,
+                 "height":229.007793466272,
                  "id":13,
                  "name":"",
                  "rotation":0,
@@ -446,14 +446,14 @@
                      "color":"#eeeeee",
                      "fontfamily":"Press Start 2P",
                      "pixelsize":35,
-                     "text":"Track 2",
+                     "text":"Z\u00fcge zur\u00fcckhalten \nvs.\nZugverkehr einstellen",
                      "wrap":true
                     },
                  "type":"",
                  "visible":true,
-                 "width":247.031,
-                 "x":227.818,
-                 "y":731.518
+                 "width":702.741945427273,
+                 "x":85.5142103498479,
+                 "y":612.931508624873
                 }],
          "opacity":1,
          "type":"objectgroup",

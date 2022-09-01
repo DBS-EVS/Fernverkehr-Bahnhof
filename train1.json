@@ -392,7 +392,7 @@
                  "y":415.518233333333
                 }, 
                 {
-                 "height":40.9635,
+                 "height":52.9635,
                  "id":11,
                  "name":"",
                  "rotation":0,
@@ -401,14 +401,14 @@
                      "color":"#eeeeee",
                      "fontfamily":"Press Start 2P",
                      "pixelsize":35,
-                     "text":"Track 1",
+                     "text":"Fahrplan\n",
                      "wrap":true
                     },
                  "type":"",
                  "visible":true,
-                 "width":247.031333333333,
-                 "x":227.817666666666,
-                 "y":731.51825
+                 "width":347.031333333333,
+                 "x":109.150999999999,
+                 "y":726.184916666667
                 }],
          "opacity":1,
          "type":"objectgroup",

@@ -401,14 +401,14 @@
                      "color":"#eeeeee",
                      "fontfamily":"Press Start 2P",
                      "pixelsize":35,
-                     "text":"Track 3",
+                     "text":"Fahrzeugkunde\n",
                      "wrap":true
                     },
                  "type":"",
                  "visible":true,
-                 "width":247.031,
-                 "x":227.818,
-                 "y":731.518
+                 "width":499.450817355627,
+                 "x":109.231508624873,
+                 "y":741.682556403582
                 }],
          "opacity":1,
          "type":"objectgroup",

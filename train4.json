@@ -401,14 +401,14 @@
                      "color":"#eeeeee",
                      "fontfamily":"Press Start 2P",
                      "pixelsize":35,
-                     "text":"Track 4",
+                     "text":"Rettungsz\u00fcge\n",
                      "wrap":true
                     },
                  "type":"",
                  "visible":true,
-                 "width":247.031,
-                 "x":227.818,
-                 "y":731.518
+                 "width":489.286260952045,
+                 "x":127.866528698107,
+                 "y":743.376649137513
                 }],
          "opacity":1,
          "type":"objectgroup",
