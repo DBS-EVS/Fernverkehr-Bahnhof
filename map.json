@@ -1392,6 +1392,12 @@
                  "y":698.666666666667
                 }],
          "opacity":1,
+         "properties":[
+                {
+                 "name":"tag",
+                 "type":"string",
+                 "value":"moderator"
+                }],
          "type":"objectgroup",
          "visible":true,
          "x":0,
@@ -3624,7 +3630,7 @@
                                 {
                                  "name":"exitUrl",
                                  "type":"string",
-                                 "value":".\/train1.json"
+                                 "value":"fernverkehr-train1"
                                 }],
                          "type":"tilelayer",
                          "visible":true,
@@ -3721,7 +3727,7 @@
                                 {
                                  "name":"exitUrl",
                                  "type":"string",
-                                 "value":".\/fernverkehr-train-2"
+                                 "value":"fernverkehr-train2"
                                 }],
                          "type":"tilelayer",
                          "visible":true,
@@ -3818,7 +3824,7 @@
                                 {
                                  "name":"exitUrl",
                                  "type":"string",
-                                 "value":".\/fernverkehr-train-3"
+                                 "value":"fernverkehr-train3"
                                 }],
                          "type":"tilelayer",
                          "visible":true,
@@ -3915,7 +3921,7 @@
                                 {
                                  "name":"exitUrl",
                                  "type":"string",
-                                 "value":".\/fernverkehr-train-4"
+                                 "value":"fernverkehr-train4"
                                 }],
                          "type":"tilelayer",
                          "visible":true,
@@ -4012,7 +4018,7 @@
                                 {
                                  "name":"exitUrl",
                                  "type":"string",
-                                 "value":".\/fernverkehr-train-5"
+                                 "value":"fernverkehr-train5"
                                 }],
                          "type":"tilelayer",
                          "visible":true,
@@ -4109,7 +4115,7 @@
                                 {
                                  "name":"exitUrl",
                                  "type":"string",
-                                 "value":".\/fernverkehr-train-6"
+                                 "value":"fernverkehr-train6"
                                 }],
                          "type":"tilelayer",
                          "visible":true,
@@ -5585,7 +5591,7 @@
          "y":0
         }],
  "nextlayerid":83,
- "nextobjectid":49,
+ "nextobjectid":50,
  "orientation":"orthogonal",
  "properties":[
         {

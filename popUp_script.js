@@ -39,7 +39,7 @@ export function openPopupWithWebsiteYesNo(popUpName, msg, websiteUrl) {
         {
             label: "Ja",
             callback: (popup => {
-                WA.openTab(websiteUrl);
+                WA.nav.openTab(websiteUrl);
                 closePopUp();
             })
         }

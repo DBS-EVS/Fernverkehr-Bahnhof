@@ -473,6 +473,12 @@
                  "y":338.666666666667
                 }],
          "opacity":1,
+         "properties":[
+                {
+                 "name":"tag",
+                 "type":"string",
+                 "value":"moderator"
+                }],
          "type":"objectgroup",
          "visible":true,
          "x":0,
@@ -906,7 +912,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"bahnhof#special-area\/exits\/entry-track1"
+                 "value":"fernverkehr-bahnhof#special-area\/exits\/entry-track1"
                 }],
          "type":"tilelayer",
          "visible":true,

@@ -37,31 +37,22 @@ const zone2PopUpMap = new Map ([
     ["program5", "popUpProgram5"]
 ]);
 
+
+
 for (const progZone of zone2PopUpMap.keys()) {
-    WA.room.onEnterZone(progZone, () => {openPopupWithWebsiteYesNo(zone2PopUpMap.get(progZone), programMsg, urlProgram)})
+    WA.room.onEnterZone(progZone, () => {
+		const zone2Var = new Map ([
+			["program1", WA.state.program1],
+			["program2", WA.state.program2],
+			["program3", WA.state.program3],
+			["program4", WA.state.program4],
+			["program5", WA.state.program5]
+		]);
+
+		
+		openPopupWithWebsiteYesNo(zone2PopUpMap.get(progZone), programMsg, zone2Var.get(progZone))
+		})
     WA.room.onLeaveZone(progZone, () => {closePopupWithWebsite()})
+	
 }
 
-
-/*
-WA.room.onEnterZone(zoneFeedback, () => {
-   currentPopup =  WA.ui.openPopup("popUpFeedback","Hier kannst du Feedback abgeben.",[
-        {
-            label: "Feedback",
-            callback: (popup => {
-                WA.nav.openCoWebSite(urlFeedback);
-                isCoWebSiteOpened = true;
-                closePopUp();
-            })
-        }]);
-})
-
-WA.room.onLeaveZone(zoneFeedback, () =>{
-    closePopUp();
-
-    if (isCoWebSiteOpened) {
-        WA.nav.closeCoWebSite();
-        isCoWebSiteOpened = false;
-    }
-})
-*/
