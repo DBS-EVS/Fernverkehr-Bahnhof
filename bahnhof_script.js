@@ -6,12 +6,12 @@ import {programMsg, urlProgram } from "./vars.js";
 /***********************************************
  * Sign functions
  ***********************************************/
-const sign1 = await WA.room.website.get("sign1");
-const sign2 = await WA.room.website.get("sign2");
-const sign3 = await WA.room.website.get("sign3");
-const sign4 = await WA.room.website.get("sign4");
-const sign5 = await WA.room.website.get("sign5");
-const sign6 = await WA.room.website.get("sign6");
+const sign1 =  WA.room.website.get("sign1");
+const sign2 =  WA.room.website.get("sign2");
+const sign3 =  WA.room.website.get("sign3");
+const sign4 =  WA.room.website.get("sign4");
+const sign5 =  WA.room.website.get("sign5");
+const sign6 =  WA.room.website.get("sign6");
 
 const signToTrackMap = new Map ([
     [sign1, track1Map],

@@ -3,8 +3,8 @@ import {track1Map, setTrackContent, refreshSigns } from "./sign_script.js";
 import {openPopupWithWebsiteYesNo, closePopupWithWebsite } from "./popUp_script.js";
 import {programMsg} from "./vars.js";
 
-const sign1a = await WA.room.website.get("sign1a");
-const sign1b = await WA.room.website.get("sign1b");
+const sign1a =  WA.room.website.get("sign1a");
+const sign1b =  WA.room.website.get("sign1b");
 
 
 const signToTrackMap = new Map ([

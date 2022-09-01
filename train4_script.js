@@ -3,8 +3,8 @@ import {track4Map, setTrackContent, refreshSigns } from "./sign_script.js";
 import {openPopupWithWebsiteYesNo, closePopupWithWebsite } from "./popUp_script.js";
 import {programMsg, urlProgram } from "./vars.js";
 
-const sign4a = await WA.room.website.get("sign4a");
-const sign4b = await WA.room.website.get("sign4b");
+const sign4a =  WA.room.website.get("sign4a");
+const sign4b =  WA.room.website.get("sign4b");
 
     const signToTrackMap = new Map ([
         [sign4a, track4Map],
