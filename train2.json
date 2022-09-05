@@ -407,14 +407,14 @@
                      "fontfamily":"Press Start 2P",
                      "halign":"center",
                      "pixelsize":24,
-                     "text":"Trainer",
+                     "text":"Treffpunkt",
                      "wrap":true
                     },
                  "type":"",
                  "visible":true,
-                 "width":170.031,
-                 "x":1727.7345,
-                 "y":402.1849
+                 "width":247.959265760798,
+                 "x":1637.94758510169,
+                 "y":419.125827339304
                 }, 
                 {
                  "height":267.297,
