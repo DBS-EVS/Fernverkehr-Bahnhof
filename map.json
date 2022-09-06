@@ -1234,7 +1234,7 @@
                 {
                  "height":0,
                  "id":47,
-                 "name":"program1",
+                 "name":"program1_1",
                  "point":true,
                  "properties":[
                         {
@@ -1245,7 +1245,7 @@
                         {
                          "name":"label",
                          "type":"string",
-                         "value":"Schalter 1:"
+                         "value":"KIRA Entwicklung:"
                         }, 
                         {
                          "name":"persist",
@@ -1256,13 +1256,13 @@
                  "type":"variable",
                  "visible":true,
                  "width":0,
-                 "x":622.666666666667,
+                 "x":602.666666666667,
                  "y":805.333333333333
                 }, 
                 {
                  "height":0,
-                 "id":44,
-                 "name":"program2",
+                 "id":50,
+                 "name":"program1_2",
                  "point":true,
                  "properties":[
                         {
@@ -1273,7 +1273,35 @@
                         {
                          "name":"label",
                          "type":"string",
-                         "value":"Schalter 2:"
+                         "value":"Spotting vs. KIRA :"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":649.333333333333,
+                 "y":802.666666666667
+                }, 
+                {
+                 "height":0,
+                 "id":44,
+                 "name":"program2_1",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":"https:\/\/dblernwelt.service.deutschebahn.com\/"
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"IRS+ Kompendium:"
                         }, 
                         {
                          "name":"persist",
@@ -1289,8 +1317,8 @@
                 }, 
                 {
                  "height":0,
-                 "id":43,
-                 "name":"program3",
+                 "id":51,
+                 "name":"program2_2",
                  "point":true,
                  "properties":[
                         {
@@ -1301,7 +1329,7 @@
                         {
                          "name":"label",
                          "type":"string",
-                         "value":"Schalter 3:"
+                         "value":"IRS+ Aufgabe:"
                         }, 
                         {
                          "name":"persist",
@@ -1312,13 +1340,41 @@
                  "type":"variable",
                  "visible":true,
                  "width":0,
-                 "x":481.333333333333,
-                 "y":454.666666666667
+                 "x":214.666666666666,
+                 "y":734.666666666666
+                }, 
+                {
+                 "height":0,
+                 "id":43,
+                 "name":"program3_1",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":"https:\/\/dblernwelt.service.deutschebahn.com\/"
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"Betrieb Live:"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"variable",
+                 "visible":true,
+                 "width":0,
+                 "x":476,
+                 "y":460
                 }, 
                 {
                  "height":0,
                  "id":45,
-                 "name":"program4",
+                 "name":"program4_1",
                  "point":true,
                  "properties":[
                         {
@@ -1329,7 +1385,7 @@
                         {
                          "name":"label",
                          "type":"string",
-                         "value":"Schalter 4:"
+                         "value":"PP\/ISTP (PP-FZD Tipps):"
                         }, 
                         {
                          "name":"persist",
@@ -1340,13 +1396,13 @@
                  "type":"variable",
                  "visible":true,
                  "width":0,
-                 "x":768,
-                 "y":456
+                 "x":764,
+                 "y":458.666666666667
                 }, 
                 {
                  "height":0,
-                 "id":46,
-                 "name":"program5",
+                 "id":53,
+                 "name":"program4_2",
                  "point":true,
                  "properties":[
                         {
@@ -1357,7 +1413,35 @@
                         {
                          "name":"label",
                          "type":"string",
-                         "value":"Schalter 5:"
+                         "value":"PP\/ISTP (ISTP)"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"variable",
+                 "visible":true,
+                 "width":0,
+                 "x":792,
+                 "y":457.333333333333
+                }, 
+                {
+                 "height":0,
+                 "id":46,
+                 "name":"program5_1",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":"https:\/\/dblernwelt.service.deutschebahn.com\/"
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"Regelwerke (KRWD):"
                         }, 
                         {
                          "name":"persist",
@@ -1370,6 +1454,90 @@
                  "width":0,
                  "x":1038.66666666667,
                  "y":698.666666666667
+                }, 
+                {
+                 "height":0,
+                 "id":54,
+                 "name":"program5_2",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":"https:\/\/dblernwelt.service.deutschebahn.com\/"
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"Regelwerke (Prompt):"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"variable",
+                 "visible":true,
+                 "width":0,
+                 "x":1037.33333333334,
+                 "y":729.333333333334
+                }, 
+                {
+                 "height":0,
+                 "id":52,
+                 "name":"program5_3",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":"https:\/\/dblernwelt.service.deutschebahn.com\/"
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"Regelwerke (Prozesse Aktuell):"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"variable",
+                 "visible":true,
+                 "width":0,
+                 "x":1036,
+                 "y":761.333333333334
+                }, 
+                {
+                 "height":0,
+                 "id":55,
+                 "name":"program5_4",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":"https:\/\/dblernwelt.service.deutschebahn.com\/"
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"Regelwerke (Epfangsbest\u00e4tigungs Prozess):"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"variable",
+                 "visible":true,
+                 "width":0,
+                 "x":1036,
+                 "y":789.333333333334
                 }],
          "opacity":1,
          "properties":[
@@ -5959,7 +6127,7 @@
          "y":0
         }],
  "nextlayerid":87,
- "nextobjectid":50,
+ "nextobjectid":56,
  "orientation":"orthogonal",
  "properties":[
         {

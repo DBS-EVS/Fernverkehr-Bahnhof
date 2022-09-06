@@ -420,18 +420,7 @@
          "draworder":"topdown",
          "id":3,
          "name":"floorLayer",
-         "objects":[
-                {
-                 "height":76,
-                 "id":13,
-                 "name":"popUpProgram1",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":816.333303922001,
-                 "x":483.354413905678,
-                 "y":226.525345215511
-                }],
+         "objects":[],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -646,35 +635,7 @@
          "draworder":"topdown",
          "id":25,
          "name":"configuration",
-         "objects":[
-                {
-                 "height":0,
-                 "id":14,
-                 "name":"program",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"default",
-                         "type":"string",
-                         "value":"https:\/\/dblernwelt.service.deutschebahn.com\/"
-                        }, 
-                        {
-                         "name":"label",
-                         "type":"string",
-                         "value":"Programm:"
-                        }, 
-                        {
-                         "name":"persist",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "rotation":0,
-                 "type":"variable",
-                 "visible":true,
-                 "width":0,
-                 "x":818.246790488375,
-                 "y":337.124454052146
-                }],
+         "objects":[],
          "opacity":1,
          "properties":[
                 {

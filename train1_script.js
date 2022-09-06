@@ -15,15 +15,6 @@ const signToTrackMap = new Map ([
 setTrackContent(signToTrackMap);
 refreshSigns(signToTrackMap);
 
-const zone2PopUpMap = new Map ([
-    ["program1", "popUpProgram1"]
-]);
-
-for (const progZone of zone2PopUpMap.keys()) {
-    WA.room.onEnterZone(progZone, () => {openPopupWithWebsiteYesNo(zone2PopUpMap.get(progZone), programMsg, WA.state.program)})
-    WA.room.onLeaveZone(progZone, () => {closePopupWithWebsite()})
-}
-
 
 
 

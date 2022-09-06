@@ -564,7 +564,7 @@
                 {
                  "height":0,
                  "id":14,
-                 "name":"program",
+                 "name":"program2",
                  "point":true,
                  "properties":[
                         {
@@ -575,7 +575,35 @@
                         {
                          "name":"label",
                          "type":"string",
-                         "value":"Programm:"
+                         "value":"LiZu ICE 826: "
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"variable",
+                 "visible":true,
+                 "width":0,
+                 "x":813.164512286584,
+                 "y":333.736268584286
+                }, 
+                {
+                 "height":0,
+                 "id":15,
+                 "name":"program1",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":"https:\/\/dblernwelt.service.deutschebahn.com\/"
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"LiZu ICE 902"
                         }, 
                         {
                          "name":"persist",
@@ -996,7 +1024,7 @@
          "y":0
         }],
  "nextlayerid":27,
- "nextobjectid":15,
+ "nextobjectid":16,
  "orientation":"orthogonal",
  "properties":[
         {

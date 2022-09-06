@@ -14,15 +14,43 @@ const sign5b =  WA.room.website.get("sign5b");
 setTrackContent(signToTrackMap);
 refreshSigns(signToTrackMap);
 
-const zone2PopUpMap = new Map ([
-    ["program1", "popUpProgram1"]
-]);
-
-for (const progZone of zone2PopUpMap.keys()) {
-    WA.room.onEnterZone(progZone, () => {openPopupWithWebsiteYesNo(zone2PopUpMap.get(progZone), programMsg, WA.state.program)})
-    WA.room.onLeaveZone(progZone, () => {closePopupWithWebsite()})
+var currentPopup = undefined;
+ function closePopUp(){
+    if (currentPopup !== undefined) {
+        currentPopup.close();
+        currentPopup = undefined;
+    }
 }
+ 
+WA.room.onEnterZone("program1", () => {
+	currentPopup = WA.ui.openPopup("popUpProgram1", programMsg, [
+        {
+            label: "LiZu ICE 826",
+            callback: (popup => {
+                WA.nav.openTab(WA.state.program2);
+            })
+        },
+        {
+            label: "LiZu ICE 902",
+            callback: (popup => {
+                WA.nav.openTab(WA.state.program1);
+            })
+        },
+		{
+            label: "Schließen",
+			className: "error",
+            callback: (popup => {
+                closePopUp();
+            })
+        }
+    ]);
+});
 
+
+WA.room.onLeaveZone("program1", () =>{
+    closePopUp();
+
+})
 export {};
 
 

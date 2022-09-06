@@ -10,7 +10,7 @@
                 {
                  "height":0,
                  "id":21,
-                 "name":"program",
+                 "name":"program2",
                  "point":true,
                  "properties":[
                         {
@@ -21,7 +21,7 @@
                         {
                          "name":"label",
                          "type":"string",
-                         "value":"Programm:"
+                         "value":"Kurztest:"
                         }, 
                         {
                          "name":"persist",
@@ -33,6 +33,34 @@
                  "visible":true,
                  "width":0,
                  "x":814.858605020514,
+                 "y":333.736268584286
+                }, 
+                {
+                 "height":0,
+                 "id":22,
+                 "name":"program1",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":"https:\/\/dblernwelt.service.deutschebahn.com\/"
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"Definition:"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"variable",
+                 "visible":true,
+                 "width":0,
+                 "x":875.172235901093,
                  "y":333.736268584286
                 }],
          "opacity":1,
@@ -1082,7 +1110,7 @@
          "y":0
         }],
  "nextlayerid":35,
- "nextobjectid":22,
+ "nextobjectid":23,
  "orientation":"orthogonal",
  "properties":[
         {

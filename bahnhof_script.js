@@ -28,31 +28,151 @@ refreshSigns(signToTrackMap);
 /***********************************************
  * Program pop up functions
  ***********************************************/
-
-const zone2PopUpMap = new Map ([
-    ["program1", "popUpProgram1"],
-    ["program2", "popUpProgram2"],
-    ["program3", "popUpProgram3"],
-    ["program4", "popUpProgram4"],
-    ["program5", "popUpProgram5"]
-]);
-
-
-
-for (const progZone of zone2PopUpMap.keys()) {
-    WA.room.onEnterZone(progZone, () => {
-		const zone2Var = new Map ([
-			["program1", WA.state.program1],
-			["program2", WA.state.program2],
-			["program3", WA.state.program3],
-			["program4", WA.state.program4],
-			["program5", WA.state.program5]
-		]);
-
-		
-		openPopupWithWebsiteYesNo(zone2PopUpMap.get(progZone), programMsg, zone2Var.get(progZone))
-		})
-    WA.room.onLeaveZone(progZone, () => {closePopupWithWebsite()})
-	
+ 
+ var currentPopup = undefined;
+ function closePopUp(){
+    if (currentPopup !== undefined) {
+        currentPopup.close();
+        currentPopup = undefined;
+    }
 }
+ 
+WA.room.onEnterZone("program1", () => {
+	currentPopup = WA.ui.openPopup("popUpProgram1", programMsg, [
+        {
+            label: "KIRA Entwicklung",
+            callback: (popup => {
+                WA.nav.openTab(WA.state.program1_1);
+            })
+        },
+        {
+            label: "Spotti vs. KIRA",
+            callback: (popup => {
+                WA.nav.openTab(WA.state.program1_2);
+            })
+        },
+		{
+            label: "Schließen",
+			className: "error",
+            callback: (popup => {
+                closePopUp();
+            })
+        }
+    ]);
+});
 
+
+WA.room.onLeaveZone("program1", () =>{
+    closePopUp();
+
+})
+
+
+
+WA.room.onEnterZone("program2", () => {
+	currentPopup = WA.ui.openPopup("popUpProgram2", programMsg, [
+        {
+            label: "IRIS+ Kompendium",
+            callback: (popup => {
+                WA.nav.openTab(WA.state.program2_1);
+            })
+        },
+        {
+            label: "IRIS+ Aufgaben",
+            callback: (popup => {
+                WA.nav.openTab(WA.state.program2_2);
+            })
+        },
+		{
+            label: "Schließen",
+			className: "error",
+            callback: (popup => {
+                closePopUp();
+            })
+        }
+    ]);
+});
+WA.room.onLeaveZone("program2", () => {closePopUp()})
+
+
+WA.room.onEnterZone("program3", () => {
+	currentPopup= WA.ui.openPopup("popUpProgram3", programMsg, [
+        {
+            label: "Umleitungskanäle",
+            callback: (popup => {
+                WA.nav.openTab(WA.state.program3_1);
+            })
+        },
+		{
+            label: "Schließen",
+			className: "error",
+            callback: (popup => {
+                closePopUp();
+            })
+        }
+    ]);
+});
+WA.room.onLeaveZone("program3", () => {closePopUp()})
+
+WA.room.onEnterZone("program4", () => {
+	currentPopup = WA.ui.openPopup("popUpProgram4", programMsg, [
+		{
+            label: "PP-FZD Tipps",
+            callback: (popup => {
+                WA.nav.openTab(WA.state.program4_1);
+            })
+        },
+		{
+            label: "ISTP Eingaben in Großstörungen-",
+            callback: (popup => {
+                WA.nav.openTab(WA.state.program4_2);
+            })
+        },
+		{
+            label: "Schließen",
+			className: "error",
+            callback: (popup => {
+                closePopUp();
+            })
+        }
+    ]);
+});
+WA.room.onLeaveZone("program4", () => {closePopUp()})
+
+WA.room.onEnterZone("program5", () => {
+	currentPopup = WA.ui.openPopup("popUpProgram5", programMsg, [
+		{
+            label: "Prompt",
+            callback: (popup => {
+                WA.nav.openTab(WA.state.program5_2);
+            })
+        },
+		{
+            label: "Prozesse Aktuell",
+            callback: (popup => {
+                WA.nav.openTab(WA.state.program5_3);
+            })
+        },
+		{
+            label: "KRWD",
+            callback: (popup => {
+                WA.nav.openTab(WA.state.program5_1);
+            })
+        },
+		{
+            label: "Empfangsbestätigung Prozess",
+            callback: (popup => {
+                WA.nav.openTab(WA.state.program5_4);
+            })
+        },
+		{
+            label: "Schließen",
+			className: "error",
+            callback: (popup => {
+                closePopUp();
+            })
+        }
+    ]);
+});
+
+WA.room.onLeaveZone("program5", () => {closePopUp()})
