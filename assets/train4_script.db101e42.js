@@ -1,0 +1,1 @@
+import"https://unpkg.com/@workadventure/scripting-api-extra@^1";import{s as n,r as o,c as s}from"./sign_script.8d3deedd.js";const a=WA.room.website.get("sign4a"),e=WA.room.website.get("sign4b"),t=new Map([[a,s],[e,s]]);n(t);o(t);
