@@ -1525,7 +1525,7 @@
                         {
                          "name":"label",
                          "type":"string",
-                         "value":"Regelwerke (Epfangsbest\u00e4tigungs Prozess):"
+                         "value":"Regelwerke (Empfangsbest\u00e4tigung Prozess):"
                         }, 
                         {
                          "name":"persist",
