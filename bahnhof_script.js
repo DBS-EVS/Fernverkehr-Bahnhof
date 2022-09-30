@@ -142,27 +142,9 @@ WA.room.onLeaveZone("program4", () => {closePopUp()})
 WA.room.onEnterZone("program5", () => {
 	currentPopup = WA.ui.openPopup("popUpProgram5", programMsg, [
 		{
-            label: "Prompt",
-            callback: (popup => {
-                WA.nav.openTab(WA.state.program5_2);
-            })
-        },
-		{
-            label: "Prozesse Aktuell",
-            callback: (popup => {
-                WA.nav.openTab(WA.state.program5_3);
-            })
-        },
-		{
-            label: "KRWD",
+            label: "IMS",
             callback: (popup => {
                 WA.nav.openTab(WA.state.program5_1);
-            })
-        },
-		{
-            label: "Empfangsbestätigung Prozess",
-            callback: (popup => {
-                WA.nav.openTab(WA.state.program5_4);
             })
         },
 		{
