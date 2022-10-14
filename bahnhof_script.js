@@ -98,7 +98,7 @@ WA.room.onLeaveZone("program2", () => {closePopUp()})
 WA.room.onEnterZone("program3", () => {
 	currentPopup= WA.ui.openPopup("popUpProgram3", programMsg, [
         {
-            label: "Umleitungskanäle",
+            label: "Umleitungskanäle ",
             callback: (popup => {
                 WA.nav.openTab(WA.state.program3_1);
             })
@@ -123,7 +123,7 @@ WA.room.onEnterZone("program4", () => {
             })
         },
 		{
-            label: "ISTP Eingaben in Großstörungen-",
+            label: "ISTP Eingaben in Großstörungen",
             callback: (popup => {
                 WA.nav.openTab(WA.state.program4_2);
             })
