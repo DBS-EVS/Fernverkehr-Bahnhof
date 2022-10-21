@@ -3314,7 +3314,7 @@
                                 {
                                  "name":"openWebsite",
                                  "type":"string",
-                                 "value":"https:\/\/forms.office.com\/pages\/designpagev2.aspx?lang=de&origin=OfficeDotCom&route=Start&sessionid=712b6b07-1768-4b15-85c1-e30cda1f6b98&subpage=design&id=nC2noeZJbU-a9lqvoRg7_dgXZrfPtdZEhJ3zJJ8IDWdUN1pWUTNMS0pYOUpGQk00Q01DS1ZLN0NJQi4u&topview=Preview"
+                                 "value":"https:\/\/forms.office.com\/Pages\/ResponsePage.aspx?id=nC2noeZJbU-a9lqvoRg7_dgXZrfPtdZEhJ3zJJ8IDWdUN1pWUTNMS0pYOUpGQk00Q01DS1ZLN0NJQi4u"
                                 }],
                          "type":"tilelayer",
                          "visible":true,
