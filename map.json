@@ -1100,6 +1100,7 @@
          "name":"labeling",
          "objects":[
                 {
+                 "class":"",
                  "height":35.6302,
                  "id":3,
                  "name":"",
@@ -1113,13 +1114,13 @@
                      "text":"Hauptb\u00fchne",
                      "wrap":true
                     },
-                 "type":"",
                  "visible":true,
                  "width":351.031,
                  "x":511.4845,
                  "y":1876.01823333333
                 }, 
                 {
+                 "class":"",
                  "height":72.9635333333331,
                  "id":8,
                  "name":"",
@@ -1132,13 +1133,13 @@
                      "text":"Zu den Gleisen >>>",
                      "wrap":true
                     },
-                 "type":"",
                  "visible":true,
                  "width":293.698,
                  "x":895.75706060606,
                  "y":2266.12429393939
                 }, 
                 {
+                 "class":"",
                  "height":71.6301666666668,
                  "id":9,
                  "name":"",
@@ -1151,13 +1152,13 @@
                      "text":"Zu den Gleisen >>>",
                      "wrap":true
                     },
-                 "type":"",
                  "visible":true,
                  "width":293.698,
                  "x":1629.39342424243,
                  "y":1965.39703787879
                 }, 
                 {
+                 "class":"",
                  "height":40.9634999999998,
                  "id":10,
                  "name":"",
@@ -1170,13 +1171,13 @@
                      "text":"Fahrplan\n",
                      "wrap":true
                     },
-                 "type":"",
                  "visible":true,
                  "width":376.364666666666,
                  "x":2583.81766666666,
                  "y":2517.51825
                 }, 
                 {
+                 "class":"",
                  "height":40.9635,
                  "id":11,
                  "name":"",
@@ -1189,13 +1190,13 @@
                      "text":"LiZu\n",
                      "wrap":true
                     },
-                 "type":"",
                  "visible":true,
                  "width":293.698,
                  "x":2580.81766666667,
                  "y":1253.51825
                 }, 
                 {
+                 "class":"",
                  "height":40.9635,
                  "id":12,
                  "name":"",
@@ -1208,13 +1209,13 @@
                      "text":"Rettungsz\u00fcge\n",
                      "wrap":true
                     },
-                 "type":"",
                  "visible":true,
                  "width":451.031333333333,
                  "x":2586.48433333333,
                  "y":1571.85158333334
                 }, 
                 {
+                 "class":"",
                  "height":40.9635,
                  "id":13,
                  "name":"",
@@ -1227,13 +1228,13 @@
                      "text":"Fahrzeugkunde\n",
                      "wrap":true
                     },
-                 "type":"",
                  "visible":true,
                  "width":521.698,
                  "x":2582.48433333334,
                  "y":1895.51825
                 }, 
                 {
+                 "class":"",
                  "height":40.9635,
                  "id":14,
                  "name":"",
@@ -1246,13 +1247,13 @@
                      "text":"Kommunikation",
                      "wrap":true
                     },
-                 "type":"",
                  "visible":true,
                  "width":481.698,
                  "x":2585.151,
                  "y":932.184916666666
                 }, 
                 {
+                 "class":"",
                  "height":130.296833333333,
                  "id":15,
                  "name":"",
@@ -1265,13 +1266,13 @@
                      "text":"Z\u00fcge zur\u00fcckhalten \nvs.\nZugverkehr einstellen",
                      "wrap":true
                     },
-                 "type":"",
                  "visible":true,
                  "width":813.698,
                  "x":2583.81766666667,
                  "y":2158.18491666667
                 }, 
                 {
+                 "class":"",
                  "height":31.6302000000001,
                  "id":23,
                  "name":"",
@@ -1285,13 +1286,13 @@
                      "text":"Samurai Sushi",
                      "wrap":true
                     },
-                 "type":"",
                  "visible":true,
                  "width":383.698,
                  "x":1408.13584848485,
                  "y":1221.42732424242
                 }, 
                 {
+                 "class":"",
                  "height":31.6302,
                  "id":26,
                  "name":"",
@@ -1305,7 +1306,6 @@
                      "text":"Caf\u00e9 des 2 Moulins",
                      "wrap":true
                     },
-                 "type":"",
                  "visible":true,
                  "width":525.698,
                  "x":1409.151,
@@ -1323,6 +1323,7 @@
          "name":"configuration",
          "objects":[
                 {
+                 "class":"variable",
                  "height":0,
                  "id":47,
                  "name":"program1_1",
@@ -1344,13 +1345,13 @@
                          "value":true
                         }],
                  "rotation":0,
-                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":602.666666666667,
                  "y":805.333333333333
                 }, 
                 {
+                 "class":"variable",
                  "height":0,
                  "id":50,
                  "name":"program1_2",
@@ -1372,13 +1373,13 @@
                          "value":true
                         }],
                  "rotation":0,
-                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":649.333333333333,
                  "y":802.666666666667
                 }, 
                 {
+                 "class":"variable",
                  "height":0,
                  "id":44,
                  "name":"program2_1",
@@ -1400,13 +1401,13 @@
                          "value":true
                         }],
                  "rotation":0,
-                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":213.333333333333,
                  "y":697.333333333333
                 }, 
                 {
+                 "class":"variable",
                  "height":0,
                  "id":51,
                  "name":"program2_2",
@@ -1428,13 +1429,13 @@
                          "value":true
                         }],
                  "rotation":0,
-                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":214.666666666666,
                  "y":734.666666666666
                 }, 
                 {
+                 "class":"variable",
                  "height":0,
                  "id":43,
                  "name":"program3_1",
@@ -1456,13 +1457,13 @@
                          "value":true
                         }],
                  "rotation":0,
-                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":476,
                  "y":460
                 }, 
                 {
+                 "class":"variable",
                  "height":0,
                  "id":45,
                  "name":"program4_1",
@@ -1484,13 +1485,13 @@
                          "value":true
                         }],
                  "rotation":0,
-                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":764,
                  "y":458.666666666667
                 }, 
                 {
+                 "class":"variable",
                  "height":0,
                  "id":53,
                  "name":"program4_2",
@@ -1512,13 +1513,13 @@
                          "value":true
                         }],
                  "rotation":0,
-                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":792,
                  "y":457.333333333333
                 }, 
                 {
+                 "class":"variable",
                  "height":0,
                  "id":46,
                  "name":"program5_1",
@@ -1540,13 +1541,13 @@
                          "value":true
                         }],
                  "rotation":0,
-                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":1038.66666666667,
                  "y":718.666666666667
                 }, 
                 {
+                 "class":"variable",
                  "height":0,
                  "id":56,
                  "name":"cafe_rechts",
@@ -1568,13 +1569,13 @@
                          "value":true
                         }],
                  "rotation":0,
-                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":2025.33333333333,
                  "y":1602.66666666667
                 }, 
                 {
+                 "class":"variable",
                  "height":0,
                  "id":57,
                  "name":"sushi_links",
@@ -1596,13 +1597,13 @@
                          "value":true
                         }],
                  "rotation":0,
-                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":1556,
                  "y":1046.66666666667
                 }, 
                 {
+                 "class":"variable",
                  "height":0,
                  "id":59,
                  "name":"cafe_links",
@@ -1624,7 +1625,6 @@
                          "value":true
                         }],
                  "rotation":0,
-                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":1532,
@@ -1648,55 +1648,55 @@
          "name":"floorLayer",
          "objects":[
                 {
+                 "class":"",
                  "height":76,
                  "id":42,
                  "name":"popUpProgram1",
                  "rotation":0,
-                 "type":"",
                  "visible":true,
                  "width":493,
                  "x":388.833333333337,
                  "y":620.666666666667
                 }, 
                 {
+                 "class":"",
                  "height":92,
                  "id":30,
                  "name":"popUpProgram2",
                  "rotation":0,
-                 "type":"",
                  "visible":true,
                  "width":473,
                  "x":152.833333333337,
                  "y":471.333333333333
                 }, 
                 {
+                 "class":"",
                  "height":104,
                  "id":39,
                  "name":"popUpProgram3",
                  "rotation":0,
-                 "type":"",
                  "visible":true,
                  "width":427.666666666666,
                  "x":184.833333333336,
                  "y":318
                 }, 
                 {
+                 "class":"",
                  "height":101.333333333333,
                  "id":40,
                  "name":"popUpProgram4",
                  "rotation":0,
-                 "type":"",
                  "visible":true,
                  "width":494.333333333333,
                  "x":646.166666666669,
                  "y":316.666666666667
                 }, 
                 {
+                 "class":"",
                  "height":86.6666666666667,
                  "id":41,
                  "name":"popUpProgram5",
                  "rotation":0,
-                 "type":"",
                  "visible":true,
                  "width":509,
                  "x":718.166666666671,
@@ -1987,6 +1987,7 @@
          "name":"signs",
          "objects":[
                 {
+                 "class":"website",
                  "height":17.6363636363637,
                  "id":2,
                  "name":"sign2",
@@ -1997,13 +1998,13 @@
                          "value":"sign.html?line1=Gleis+2"
                         }],
                  "rotation":0,
-                 "type":"website",
                  "visible":true,
                  "width":59.090909090909,
                  "x":2558,
                  "y":2027.09090909091
                 }, 
                 {
+                 "class":"website",
                  "height":17.6364,
                  "id":17,
                  "name":"sign3",
@@ -2014,13 +2015,13 @@
                          "value":"sign.html?line1=Gleis+3"
                         }],
                  "rotation":0,
-                 "type":"website",
                  "visible":true,
                  "width":59.0909,
                  "x":2558.27273181818,
                  "y":1706.81816363636
                 }, 
                 {
+                 "class":"website",
                  "height":17.6364,
                  "id":18,
                  "name":"sign4",
@@ -2031,13 +2032,13 @@
                          "value":"sign.html?line1=Gleis+4"
                         }],
                  "rotation":0,
-                 "type":"website",
                  "visible":true,
                  "width":59.0909,
                  "x":2558.27273181818,
                  "y":1386.81816363636
                 }, 
                 {
+                 "class":"website",
                  "height":17.6364,
                  "id":19,
                  "name":"sign5",
@@ -2048,13 +2049,13 @@
                          "value":"sign.html?line1=Gleis+5"
                         }],
                  "rotation":0,
-                 "type":"website",
                  "visible":true,
                  "width":59.0909,
                  "x":2558.20455,
                  "y":1066.76513333333
                 }, 
                 {
+                 "class":"website",
                  "height":17.6364,
                  "id":21,
                  "name":"sign6",
@@ -2065,13 +2066,13 @@
                          "value":"sign.html?line1=Gleis+6"
                         }],
                  "rotation":0,
-                 "type":"website",
                  "visible":true,
                  "width":59.0909,
                  "x":2558.08,
                  "y":746.682
                 }, 
                 {
+                 "class":"website",
                  "height":17.6364,
                  "id":28,
                  "name":"sign1",
@@ -2082,7 +2083,6 @@
                          "value":"sign.html?line1=Gleis+1"
                         }],
                  "rotation":0,
-                 "type":"website",
                  "visible":true,
                  "width":59.0909,
                  "x":2558.12121666667,
@@ -6141,7 +6141,7 @@
          "value":"bahnhof_script.js"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.8.6",
+ "tiledversion":"1.9.2",
  "tileheight":32,
  "tilesets":[
         {
@@ -6173,7 +6173,7 @@
         {
          "columns":31,
          "firstgid":14001,
-         "image":"tilesets\/Bahnhof\/dbs\/symbols.png",
+         "image":"..\/fernverkehr-weihnachtsmarkt\/tilesets\/Tilesets\/symbols.png",
          "imageheight":992,
          "imagewidth":992,
          "margin":0,
@@ -8610,6 +8610,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.8",
+ "version":"1.9",
  "width":101
 }
